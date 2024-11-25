@@ -65,6 +65,9 @@
   <img src="https://raw.githubusercontent.com/nil0x42/phpsploit/master/data/img/demo.png">
 </p>
 
+#### Info
+
+Perlu di ketahui, bahwa repository di buat untuk bertujuan back up script asli dari <a href="https://twitter.com/nil0x42">nil0x42</a> agar suatau saat kalau tools asli hilang atau terblokir masih ada backup file tools di sini, tanpa saya mengubah isinya sedikitpun _<
 
 #### Ikhtisar
 
